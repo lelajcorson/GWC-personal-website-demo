@@ -2,12 +2,73 @@ body{
     margin: 0px;
 }
 
-.banner{
-    height: 600px;
-    background-image: url("banner2.jpeg");
-    width: 100%;
-    background-repeat: no-repeat;
+h1, p, a, span{
+    font-family: "Raleway";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+.flex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex div{
+    align-self: center;
+    justify-content: center;
+}
+
+.header{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: #235b53;
+}
+
+.background-green{
+    background-color: #e9efee;
+}
+
+/*nav*/
+.nav{
+    background-color: #235b53;
+    height: auto;
+    padding: 10px;
+}
+
+.nav span{
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    padding-right: 10px;
+    height: auto;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url('succulent2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .name{
@@ -16,5 +77,68 @@ body{
     width: 100%;
     align-self: center;
     font-size: 80px;
-    font-family: "Raleway";
+}
+
+/* bio */
+
+.bio-container{
+    width: auto;
+}
+
+.bio-pic{
+    height: 250px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.bio h1{
+    text-align: center;
+}
+
+.bio p{
+    font-size: 25px;
+    text-align: center;
+    width: auto;
+}
+
+/*Activites*/
+.activities{
+    /*background-color: #FFF4C2;*/
+    /*background-color: #D4DBD4;*/
+}
+
+.card{
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img{
+    width: 300px;
+}
+
+/*Contact*/
+.contact{
+    padding: 50px;
+}
+
+/*Gallery*/
+.gallery img{
+    width: 250px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.logo{
+    width: 45px;
+    padding: 5px;
 }
