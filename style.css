@@ -39,6 +39,9 @@ a{
     background-color: #235b53;
     height: auto;
     padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .nav span{
@@ -58,13 +61,13 @@ a{
 .nav li{
     display: inline;
     padding-right: 10px;
-    height: auto;
+    padding-top: 10px;
 }
 
 /* banner */
 .banner{
     display: flex;
-    height: 100vh;
+    height: 93vh;
     width: 100%;
     background-image: url('Assets/succulent2.jpg');
     background-size: cover;
