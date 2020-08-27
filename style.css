@@ -7,7 +7,6 @@ h1, p, a, span{
 }
 
 a{
-    color: white;
     text-decoration: none;
     display: inline;
 }
@@ -36,17 +35,18 @@ a{
 
 /*nav*/
 .nav{
-    background-color: #235b53;
+    background-color: #235b5320;
+    /*opacity: 10%;*/
     height: auto;
     padding: 10px;
     display: flex;
     justify-content: start;
     align-items: center;
+    position: sticky;
 }
 
 .nav span{
     font-size: 30px;
-    color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -65,10 +65,14 @@ a{
     padding-right: 10px;
 }
 
+.nav a, .nav span{
+    color: #235b53;
+    opacity: 100%;
+}
+
 /* banner */
 .banner{
-    display: flex;
-    height: 93vh;
+    height: 100vh;
     width: 100%;
     background-image: url('Assets/succulent2.jpg');
     background-size: cover;
@@ -76,11 +80,15 @@ a{
 }
 
 .name{
-    color: white;
+    color: #235b53;
     text-align: center;
     width: 100%;
     align-self: center;
     font-size: 80px;
+}
+
+.name-div{
+    height: 90vh;
 }
 
 /* bio */
