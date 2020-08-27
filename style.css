@@ -71,7 +71,7 @@ a{
 }
 
 /* banner */
-.banner{
+#banner{
     height: 100vh;
     width: 100%;
     background-image: url('Assets/succulent2.jpg');
@@ -102,19 +102,12 @@ a{
     border-radius: 50%;
     padding: 10px;
 }
-
-.bio h1{
-    text-align: center;
-}
-
-.bio p{
+#bio p{
     font-size: 25px;
-    text-align: center;
-    width: auto;
 }
 
 /*Activites*/
-.activities{
+#activities{
     /*background-color: #FFF4C2;*/
     /*background-color: #D4DBD4;*/
 }
@@ -130,12 +123,12 @@ a{
 }
 
 /*Contact*/
-.contact{
+#contact{
     padding: 50px;
 }
 
 /*Gallery*/
-.gallery img{
+#gallery img{
     width: 250px;
 }
 
