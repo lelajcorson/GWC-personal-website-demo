@@ -91,7 +91,7 @@ a{
     height: 90vh;
 }
 
-/* bio */
+/* Bio */
 
 .bio-container{
     width: auto;
@@ -104,6 +104,10 @@ a{
 }
 #bio p{
     font-size: 25px;
+}
+
+#bio h1{
+    text-align: center;
 }
 
 /*Activites*/
