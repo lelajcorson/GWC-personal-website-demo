@@ -128,7 +128,9 @@ a{
 /*Gallery*/
 #gallery img{
     width: 250px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 #gallery .flex{
