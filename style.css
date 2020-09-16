@@ -27,7 +27,6 @@ a{
 
 .header{
     font-size: 50px;
-    /*text-align: center;*/
     padding: 40px;
     color: #235b53;
 }
@@ -42,7 +41,6 @@ a{
     padding: 10px;
     display: flex;
     justify-content: start;
-    position: sticky;
 }
 
 .nav span{
@@ -73,7 +71,6 @@ a{
     width: 100%;
     background-image: url('Assets/succulent2.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .name{
